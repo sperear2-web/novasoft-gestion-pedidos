@@ -3,7 +3,7 @@
 function listarPedidos() {
   const lista = document.getElementById("lista-pedidos");
   lista.innerHTML = "";
-  pedidos.forEach(function (pedido) {
+  pedido.forEach(function (pedido) {
     const item = document.createElement("li");
     item.textContent = pedido.id + " - " + pedido.cliente + " - " + pedido.producto + " (" + pedido.estado + ")";
     lista.appendChild(item);
