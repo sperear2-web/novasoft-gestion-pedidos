@@ -1,0 +1,33 @@
+:root {
+  --color-primario: #2c3e50;
+  --color-fondo: #f4f6f8;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-fondo);
+  color: #222;
+  margin: 0;
+}
+
+header {
+  background-color: var(--color-primario);
+  color: white;
+  padding: 1rem;
+}
+
+#pedidos-container {
+  padding: 1rem;
+}
+
+#lista-pedidos li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
