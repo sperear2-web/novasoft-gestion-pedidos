@@ -4,3 +4,8 @@ const pedidos = [
   { id: 2, cliente: "Ana Torres", producto: "Monitor 24\"", estado: "Enviado" },
   { id: 3, cliente: "Luis Mejía", producto: "Mouse inalámbrico", estado: "Entregado" }
 ];
+
+// Función para generar un reporte simple de pedidos pendientes
+function reportePendientes() {
+  return pedidos.filter(p => p.estado === "Pendiente");
+}
