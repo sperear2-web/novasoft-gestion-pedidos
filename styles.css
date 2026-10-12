@@ -1,4 +1,6 @@
 :root {
+  /* Conflicto resuelto por el equipo: se conserva el azul corporativo
+     (feature/ui-azul) por ser la decisión de marca ya aprobada. */
   --color-primario: #1565c0; /* azul corporativo */
   --color-fondo: #f4f6f8;
 }
